@@ -31,25 +31,27 @@ namespace MS
         static void Main(string[] args)
         {
             Jogos = new List<Jogo>();
-            const string nomeArquivo = "C:\\dell\\mega sena.txt";
+            const string FILE_NAME = "C:\\dell\\mega sena.txt";
+            const int NUMBER_LENGTH = 6;
 
-            if (File.Exists(nomeArquivo))
+            if (File.Exists(FILE_NAME))
             {
-                var arquivo = File.ReadAllLines(nomeArquivo);
+                var arquivo = File.ReadAllLines(FILE_NAME);
 
                 foreach (var linha in arquivo)
                 {
                     var vetor = linha.Split(' ');
-                    var temp = new List<int>();
+                    var tempNumbersSet = new List<int>();
 
                     foreach (var item in vetor)
                     {                       
                         if (isValidNumber(item))
-                            temp.Add(int.Parse(item));                        
+                            tempNumbersSet.Add(int.Parse(item));                        
                     }
 
-                    if (temp.Count == 6)
-                        Jogos.Add(new Jogo(temp));
+                    //Adding valid numbers set.
+                    if (tempNumbersSet.Count == NUMBER_LENGTH)
+                        Jogos.Add(new Jogo(tempNumbersSet));
 
                     Console.WriteLine();
                 }
@@ -59,7 +61,7 @@ namespace MS
         }
 
         /// <summary>
-        /// Check if number is a valid name (between 1 and 60)
+        /// Check if number is valid regarding Mega Sena pattern (between 1 and 60)
         /// </summary>
         /// <param name="number"></param>
         /// <returns></returns>

@@ -4,3 +4,9 @@ c:\users\u6024365\documents\visual studio 2015\Projects\MS\MS\bin\Debug\MS.pdb
 c:\users\u6024365\documents\visual studio 2015\Projects\MS\MS\obj\Debug\MS.csprojResolveAssemblyReference.cache
 c:\users\u6024365\documents\visual studio 2015\Projects\MS\MS\obj\Debug\MS.exe
 c:\users\u6024365\documents\visual studio 2015\Projects\MS\MS\obj\Debug\MS.pdb
+C:\Users\u6024365\Documents\GitHub\MegaSenaAdviser\MS\bin\Debug\MS.exe.config
+C:\Users\u6024365\Documents\GitHub\MegaSenaAdviser\MS\obj\Debug\MS.exe
+C:\Users\u6024365\Documents\GitHub\MegaSenaAdviser\MS\obj\Debug\MS.pdb
+C:\Users\u6024365\Documents\GitHub\MegaSenaAdviser\MS\bin\Debug\MS.exe
+C:\Users\u6024365\Documents\GitHub\MegaSenaAdviser\MS\bin\Debug\MS.pdb
+C:\Users\u6024365\Documents\GitHub\MegaSenaAdviser\MS\obj\Debug\MS.csprojResolveAssemblyReference.cache
